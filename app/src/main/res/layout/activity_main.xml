@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/colorWhiteBG">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnLoginFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn_cornered"
+            android:layout_marginBottom="15dp"
+            android:text="Continue with Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:drawableLeft="@drawable/custom_size_facebook_logo"
+            android:drawableTint="@color/colorWhite"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"/>
+
+        <Button
+            android:id="@+id/btnSigninGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn_cornered"
+            android:layout_marginBottom="30dp"
+            android:text="Sign in with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGoogleRed"
+            android:backgroundTint="@color/colorWhite"
+            android:textSize="14dp"
+            android:drawableLeft="@drawable/custom_size_google_logo"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
